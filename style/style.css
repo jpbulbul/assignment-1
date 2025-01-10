@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* *shared-style* */
-*{
+* {
    background-color: #f5f5f5;
 }
 .dark-1{
@@ -52,7 +52,7 @@ nav li a>button{
 
 .banner{
     margin: 50px 160px;
-    
+    background-color: #c6e4d6;
     border-radius: 15px;
 }
 .banner-container{
@@ -63,11 +63,11 @@ nav li a>button{
     margin-right: 60px;
     padding-top: 75px;
     padding-bottom: 80px;
-     
-    
+    background-color: #c6e4d6;   
 }
 .banner-content{
     max-width: 50%;
+    background-color: #c6e4d6;
      
 }
 .banner-content >h3{
@@ -76,14 +76,61 @@ nav li a>button{
        font-weight: 500;
        font-family: fira sans;
        margin-bottom: -20px;
+       background-color: #c6e4d6;
 }
 .banner-content>h1{
     font-size: 47.5px;
     color: black;
+    background-color: #c6e4d6;
 }
 .banner-content>button{
     background-color: #006a50;
-    color: wheat;
+    color: white;
     border: none;
     font-size: 15px;
+   
+}
+.banner-content-image>img{
+    background-color: #c6e4d6;
+}
+/* icon-text */
+.icon-text-1 {
+    margin: 0 160px;
+}
+.icontext{
+    margin: 60px 160px;
+}
+.icon-heading{
+    font-size: 30px;
+    font-family: bold;
+}
+.icon{
+  display: flex ;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-item{
+   background: #ffffff;
+   width: 302px;
+   height: 180px;
+   padding: 24px;
+   border-radius: 15px;
+   margin-right: 20px;
+       
+}
+.icon-item-4{
+    background: #ffffff;
+    width: 302px;
+    height: 180px;
+    padding: 24px;
+    border-radius: 15px;
+}
+.icon-item>img {
+    max-width: 41px;
+}
+.icon-item >p ,.icon-item-4>p{
+    background-color: #ffffff;
+}
+.icon-item >h3 ,.icon-item-4>h3 {
+    background-color: #ffffff;
 }
